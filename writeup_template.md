@@ -39,19 +39,20 @@ The goals / steps of this project are the following:
 
 * Inside the draw_lines() function a logic is implemented to draw just one extended line for the right and left lanes instead of dotted lanes. The logic behind this implementation is as explained below.
 
-** It is possible to separate lane lines belonging to left lane and right lane as the slope is positive for right lanes and it is negative for left lanes.
+  * It is possible to separate lane lines belonging to left lane and right lane as the slope is positive for right lanes and it is negative for left lanes.
 
-** Use the function np.polyfit() to find least squares polynomial fit for the left and right lanes.
+  * Use the function np.polyfit() to find least squares polynomial fit for the left and right lanes.
 
-** The function np.poly1d() then finds one-dimensional polynomial class for each lane. 
+  * The function np.poly1d() then finds one-dimensional polynomial class for each lane. 
 
-** This helps to find x-cordinates of start and end points of the left and right lanes.
+  * This helps to find x-cordinates of start and end points of the left and right lanes.
 
-** The start and end y- coordinate points for both left and right lanes are same since both the lanes start from bottom of the image and end just below the horizon.
+  * The start and end y- coordinate points for both left and right lanes are same since both the lanes start from bottom of the image and end just below the horizon.
 
-** This way the lines are extended and drawn transparently on the input color image.  
+  * This way the lines are extended and drawn transparently on the input color image.  
 
 * Finally, the result onto the input color image as shown below.
+
 ![alt text][image4]
 
 
