@@ -55,3 +55,12 @@ The goals / steps of this project are the following:
 
 ![alt text][image4]
 
+### 2. Identify potential shortcomings with your current pipeline
+
+* Lanes are not detected sometimes. The main reason is the color of lanes and changing lightening conditions
+
+
+### 3. Suggest possible improvements to your pipeline
+
+* Consideration of color of lanes.
+* Lanes that are not straight (curvy lanes) needs special implementation.
