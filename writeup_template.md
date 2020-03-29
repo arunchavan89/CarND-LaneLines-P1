@@ -22,8 +22,6 @@ The goals / steps of this project are the following:
 
 ---
 
-### Reflection
-
 ### 1. Lets explain the pipeline step by step. 
 
 * The function grayscale() converts the color input image into grayscale image.
